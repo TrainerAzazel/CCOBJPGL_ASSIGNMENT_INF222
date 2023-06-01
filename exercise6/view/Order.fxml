@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Order" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Text layoutX="16.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty       Item Name         Price          Sub-Total" wrappingWidth="296.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="qty1" layoutX="14.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lbl" textAlignment="CENTER" wrappingWidth="34.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="qty2" layoutX="14.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lbl" textAlignment="CENTER" wrappingWidth="34.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="qty3" layoutX="14.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lbl" textAlignment="CENTER" wrappingWidth="34.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="item1" layoutX="69.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="item2" layoutX="69.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="item3" layoutX="69.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="price1" layoutX="158.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="price2" layoutX="158.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="price3" layoutX="158.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="sub1" layoutX="240.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="sub2" layoutX="240.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="sub3" layoutX="240.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="total1" layoutX="154.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total" textAlignment="CENTER" wrappingWidth="66.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="total2" layoutX="243.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Label" textAlignment="CENTER" wrappingWidth="52.1279296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="img1" fitHeight="43.0" fitWidth="108.0" layoutX="100.0" layoutY="7.0">
+         <image>
+            <Image url="@../../../../Downloads/ikeaLogo.png" />
+         </image>
+      </ImageView>
+      <Line endX="298.8720703125" endY="107.5" layoutY="18.0" startX="12.5" startY="107.5" />
+      <Line endX="100.0" layoutX="193.0" layoutY="285.0" startX="-34.1279296875" />
+      <ImageView fitHeight="55.0" fitWidth="164.0" layoutX="72.0" layoutY="405.0">
+         <image>
+            <Image url="@../../../../Downloads/R.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
