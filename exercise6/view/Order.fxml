@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <ImageView fitHeight="117.0" fitWidth="124.0" layoutX="76.0" layoutY="-20.0">
+         <image>
+            <Image url="@../../../../Downloads/ikea-logo-png-transparent.png" />
+         </image>
+      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="126.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTITY" wrappingWidth="64.580078125">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="28.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRODUCT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="233.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="32.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="171.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="p1" layoutX="44.0" layoutY="170.0" text="Label" />
+      <Label fx:id="p2" layoutX="43.0" layoutY="203.0" text="Label" />
+      <Label fx:id="p3" layoutX="43.0" layoutY="242.0" text="Label" />
+      <Label fx:id="q3" layoutX="140.0" layoutY="241.0" text="Label" />
+      <Label fx:id="q2" layoutX="139.0" layoutY="203.0" text="Label" />
+      <Label fx:id="q1" layoutX="139.0" layoutY="171.0" text="Label" />
+      <Label fx:id="price3" layoutX="235.0" layoutY="244.0" text="Label" />
+      <Label fx:id="price2" layoutX="235.0" layoutY="205.0" text="Label" />
+      <Label fx:id="price1" layoutX="235.0" layoutY="171.0" text="Label" />
+      <Label fx:id="total" layoutX="236.0" layoutY="305.0" text="Label" />
+      <Line endX="146.60003662109375" layoutX="132.0" layoutY="149.0" startX="-110.80000305175781" />
+      <Line endX="146.60003662109375" layoutX="135.0" layoutY="281.0" startX="-110.80000305175781" />
+   </children>
+</Pane>
